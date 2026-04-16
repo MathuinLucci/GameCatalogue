@@ -98,7 +98,6 @@ namespace GameCatalogue
             cboPlatform.ValueMember = "Value";
         }
 
-        string apiKey = ConfigurationManager.AppSettings["RawgApiKey"];
 
         private async Task<string> GetDataFromAPI(string url)
         {
@@ -137,6 +136,12 @@ namespace GameCatalogue
 
             return allGames;
         }
+        public string URLBuilder()
+        {
+        string apiKey = ConfigurationManager.AppSettings["RawgApiKey"];
+        string urlBase = $"https://api.rawg.io/api/games?key={apiKey}{Filter()}{SearchText()}";
+            return urlBase;
+        }
 
         private bool EmptyText()
         {
@@ -147,14 +152,6 @@ namespace GameCatalogue
             }
             return isEmpty;
         }
-
-        private string PageSize()
-        {
-            int pageSize = Convert.ToInt32(cboResults.Text);
-            string pageUrl = $"&page_size={pageSize}";
-            return pageUrl;
-        }
-
         private string Filter()
         {
             int id = (int)cboPlatform.SelectedValue;
@@ -230,10 +227,7 @@ namespace GameCatalogue
 
             int pageSize = int.Parse(cboResults.Text);
 
-            string urlBase =
-                $"https://api.rawg.io/api/games?key={apiKey}{Filter()}{SearchText()}";
-
-            var products = await LoadSinglePageAsync(urlBase, currentPage, pageSize);
+            var products = await LoadSinglePageAsync(URLBuilder(), currentPage, pageSize);
             catalogueTable.DataSource = products;
 
             UseWaitCursor = false;
@@ -249,9 +243,8 @@ namespace GameCatalogue
             lblPage.Text = $"Page: {currentPage}";
 
             int pageSize = int.Parse(cboResults.Text);
-            string urlBase = $"https://api.rawg.io/api/games?key={apiKey}{Filter()}{SearchText()}";
 
-            var products = await LoadSinglePageAsync(urlBase, currentPage, pageSize);
+            var products = await LoadSinglePageAsync(URLBuilder(), currentPage, pageSize);
 
             if (products.Count == 0)
             {
@@ -281,9 +274,7 @@ namespace GameCatalogue
             lblPage.Text = $"Page: {currentPage}";
 
             int pageSize = int.Parse(cboResults.Text);
-            string urlBase = $"https://api.rawg.io/api/games?key={apiKey}{Filter()}{SearchText()}";
-
-            var products = await LoadSinglePageAsync(urlBase, currentPage, pageSize);
+            var products = await LoadSinglePageAsync(URLBuilder(), currentPage, pageSize);
             catalogueTable.DataSource = products;
 
             btnNext.Enabled = true;

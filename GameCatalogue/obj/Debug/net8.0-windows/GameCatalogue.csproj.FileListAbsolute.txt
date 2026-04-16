@@ -61,3 +61,4 @@ C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.
 C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.pdb
 C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.genruntimeconfig.cache
 C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\ref\GameCatalogue.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.sourcelink.json
