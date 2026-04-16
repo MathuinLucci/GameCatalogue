@@ -1,0 +1,63 @@
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.CatalogueWindow.resources
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.csproj.GenerateResource.cache
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.AssemblyInfoInputs.cache
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.AssemblyInfo.cs
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.csproj.CoreCompileInputs.cache
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.exe
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.dll.config
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.deps.json
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.runtimeconfig.json
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.dll
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.pdb
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.dll
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\refint\GameCatalogue.dll
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.pdb
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.genruntimeconfig.cache
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\ref\GameCatalogue.dll
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\lucar\Desktop\Class Stuff\Visual Studio Projects\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCata.0BB98151.Up2Date
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.CatalogueWindow.resources
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.csproj.GenerateResource.cache
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.AssemblyInfo.cs
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.dll
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\refint\GameCatalogue.dll
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.pdb
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.exe
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.dll.config
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.deps.json
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.runtimeconfig.json
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.dll
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.pdb
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCata.0BB98151.Up2Date
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.genruntimeconfig.cache
+C:\Users\User\Desktop\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\ref\GameCatalogue.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.exe
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.dll.config
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.deps.json
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.runtimeconfig.json
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\GameCatalogue.pdb
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.CatalogueWindow.resources
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.csproj.GenerateResource.cache
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.AssemblyInfoInputs.cache
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.AssemblyInfo.cs
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.csproj.CoreCompileInputs.cache
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCata.0BB98151.Up2Date
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\refint\GameCatalogue.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.pdb
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.genruntimeconfig.cache
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\ref\GameCatalogue.dll

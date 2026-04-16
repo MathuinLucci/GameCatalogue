@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucar\\Desktop\\GameCatalogue\\GameCatalogue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C05ACF3-6430-44B3-99ED-3FA7BEDB5217}|GameCatalogue\\GameCatalogue.csproj|c:\\users\\lucar\\desktop\\gamecatalogue\\gamecatalogue\\gamecatalogue\\cataloguewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C05ACF3-6430-44B3-99ED-3FA7BEDB5217}|GameCatalogue\\GameCatalogue.csproj|solutionrelative:gamecatalogue\\cataloguewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C05ACF3-6430-44B3-99ED-3FA7BEDB5217}|GameCatalogue\\GameCatalogue.csproj|c:\\users\\lucar\\desktop\\gamecatalogue\\gamecatalogue\\gamecatalogue\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C05ACF3-6430-44B3-99ED-3FA7BEDB5217}|GameCatalogue\\GameCatalogue.csproj|solutionrelative:gamecatalogue\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C05ACF3-6430-44B3-99ED-3FA7BEDB5217}|GameCatalogue\\GameCatalogue.csproj|c:\\users\\lucar\\desktop\\gamecatalogue\\gamecatalogue\\gamecatalogue\\rawgdeserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C05ACF3-6430-44B3-99ED-3FA7BEDB5217}|GameCatalogue\\GameCatalogue.csproj|solutionrelative:gamecatalogue\\rawgdeserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C05ACF3-6430-44B3-99ED-3FA7BEDB5217}|GameCatalogue\\GameCatalogue.csproj|c:\\users\\lucar\\desktop\\gamecatalogue\\gamecatalogue\\gamecatalogue\\cataloguewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C05ACF3-6430-44B3-99ED-3FA7BEDB5217}|GameCatalogue\\GameCatalogue.csproj|solutionrelative:gamecatalogue\\cataloguewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RawgDeserialize.cs",
+              "DocumentMoniker": "C:\\Users\\lucar\\Desktop\\GameCatalogue\\GameCatalogue\\GameCatalogue\\RawgDeserialize.cs",
+              "RelativeDocumentMoniker": "GameCatalogue\\RawgDeserialize.cs",
+              "ToolTip": "C:\\Users\\lucar\\Desktop\\GameCatalogue\\GameCatalogue\\GameCatalogue\\RawgDeserialize.cs",
+              "RelativeToolTip": "GameCatalogue\\RawgDeserialize.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T22:26:37.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\lucar\\Desktop\\GameCatalogue\\GameCatalogue\\GameCatalogue\\Product.cs",
+              "RelativeDocumentMoniker": "GameCatalogue\\Product.cs",
+              "ToolTip": "C:\\Users\\lucar\\Desktop\\GameCatalogue\\GameCatalogue\\GameCatalogue\\Product.cs",
+              "RelativeToolTip": "GameCatalogue\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T22:26:36.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CatalogueWindow.cs",
+              "DocumentMoniker": "C:\\Users\\lucar\\Desktop\\GameCatalogue\\GameCatalogue\\GameCatalogue\\CatalogueWindow.cs",
+              "RelativeDocumentMoniker": "GameCatalogue\\CatalogueWindow.cs",
+              "ToolTip": "C:\\Users\\lucar\\Desktop\\GameCatalogue\\GameCatalogue\\GameCatalogue\\CatalogueWindow.cs",
+              "RelativeToolTip": "GameCatalogue\\CatalogueWindow.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAkwGQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T19:24:19.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatalogueWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lucar\\Desktop\\GameCatalogue\\GameCatalogue\\GameCatalogue\\CatalogueWindow.cs",
+              "RelativeDocumentMoniker": "GameCatalogue\\CatalogueWindow.cs",
+              "ToolTip": "C:\\Users\\lucar\\Desktop\\GameCatalogue\\GameCatalogue\\GameCatalogue\\CatalogueWindow.cs [Design]",
+              "RelativeToolTip": "GameCatalogue\\CatalogueWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T18:21:44.707Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
