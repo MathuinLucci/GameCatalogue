@@ -8,10 +8,11 @@ namespace GameCatalogue
     public class Products
     {
         public int GameId { get; set; }
-        public Image ArtImage { get; set; }
-        public string Title { get; set; }
-        public string Platform { get; set; }
-        public string Rating { get; set; }
-        public string ReleaseDate { get; set; }
+
+        public Image? ArtImage { get; set; } = null!;
+        public string Title { get; set; } = null!;
+        public string Platform { get; set; } = null!;
+        public string Rating { get; set; } = null!;
+        public string ReleaseDate { get; set; } = null!;
     }
 }

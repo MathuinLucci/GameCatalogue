@@ -142,6 +142,7 @@
             btnClose.TabIndex = 4;
             btnClose.Text = "Close";
             btnClose.UseVisualStyleBackColor = true;
+            btnClose.Click += btnClose_Click;
             // 
             // cboResults
             // 
@@ -159,6 +160,7 @@
             btnPrev.TabIndex = 6;
             btnPrev.Text = "<<< Prev";
             btnPrev.UseVisualStyleBackColor = true;
+            btnPrev.Click += btnPrev_Click;
             // 
             // btnNext
             // 
@@ -168,6 +170,7 @@
             btnNext.TabIndex = 7;
             btnNext.Text = "Next>>>";
             btnNext.UseVisualStyleBackColor = true;
+            btnNext.Click += btnNext_Click;
             // 
             // lblPage
             // 
