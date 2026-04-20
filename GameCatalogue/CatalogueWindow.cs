@@ -110,7 +110,7 @@ namespace GameCatalogue
         }
 
         /// <summary>
-        /// Loads the JSON data from the provided URL using an HttpClient. It sends a GET request to the URL and retrieves the response as a string. The method is asynchronous and returns the JSON data as a string when the request is complete.
+        /// Loads the JSON data from the provided URL using an HttpClient. The method is asynchronous and returns the JSON data as a string when the request is complete.
         /// </summary>
         /// <param name="url"></param>
         /// <returns></returns>
@@ -122,7 +122,7 @@ namespace GameCatalogue
         }
 
         /// <summary>
-        /// Loads all results from the API based on the provided URL and page size. It uses a loop to fetch data page by page until there are no more results to retrieve. The method constructs the URL with pagination parameters, retrieves the JSON data from the API, deserializes it into a RawgGameResponse object, and adds the results to a list of RawgGame objects. If there are no results or if the number of results is less than the specified page size, it breaks the loop and returns the complete list of games.
+        /// Loads all results from the API based on the provided URL and page size. It uses a loop to fetch data page by page until there are no more results to retrieve.
         /// </summary>
         /// <param name="urlBase"></param>
         /// <param name="pageSize"></param>
@@ -239,7 +239,7 @@ namespace GameCatalogue
         }
 
         /// <summary>
-        /// Loads a single page of results based on the provided URL, page number, and page size. It constructs the URL with pagination parameters, retrieves the JSON data from the API, deserializes it into a RawgGameResponse object, and then maps the results to a list of Products objects. Each product includes the game ID, title, platform(s), rating, release date, and art image (which is loaded asynchronously). If there are no results, it returns an empty list.
+        /// Loads a single page of results based on the provided URL, page number, and page size. 
         /// </summary>
         /// <param name="urlBase"></param>
         /// <param name="page"></param>
@@ -263,7 +263,7 @@ namespace GameCatalogue
             var products = await Task.WhenAll(response.results.Select(async g => new Products
             {
                 GameId = g.Id,
-                ArtImage = await ImageBuilder(g.BackgroundImage),
+                ArtImage = await ImageBuilder(g.background_image),
                 Title = g.Name,
                 Platform = g.Platforms == null
                     ? "Platform Not Listed"
@@ -276,7 +276,7 @@ namespace GameCatalogue
         }
 
         /// <summary>
-        /// Takes the search text, selected platform, and results per page to build the URL and load the first page of results. Also resets the current page to 1 and updates the page label. Disables the buttons and shows a wait cursor while loading to prevent multiple clicks and confusion.
+        /// Takes the search text, selected platform, and results per page to build the URL and load the first page of results. Also resets the current page to 1 and updates the page label.
         /// </summary>
         private int currentPage = 1;
         private async void btnSearch_Click(object sender, EventArgs e)

@@ -66,7 +66,11 @@ namespace GameCatalogue
 
         public int SelectedProfileId { get; private set; }
         private int currentProfileId;
-
+        /// <summary>
+        /// User settings form for selecting/creating profiles.
+        /// </summary>
+        /// <param name="database"></param>
+        /// <param name="profileId"></param>
         public frmUserSettings(DatabaseManager database, int profileId)
         {
             InitializeComponent();

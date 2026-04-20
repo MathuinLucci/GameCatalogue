@@ -25,7 +25,7 @@ namespace GameCatalogue
         public string Name { get; set; } = null!;
         public string Released { get; set; } = null!;
         public double Rating { get; set; }
-        public string BackgroundImage { get; set; } = null!;
+        public string background_image { get; set; } = null!;
         public List<RawgPlatformWrapper> Platforms { get; set; } = null!;
     }
 
