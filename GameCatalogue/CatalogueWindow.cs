@@ -21,6 +21,9 @@ namespace GameCatalogue
         private int currentProfileId = -1;
 
 
+        /// <summary>
+        /// Prepares the form, sets up the database connection, configures the DataGridView, and populates the platform filter ComboBox. It also initializes the platforms dictionary with platform names and their corresponding IDs for use in API calls. The constructor ensures that the form is ready for user interaction and that all necessary components are properly configured before any actions are taken.
+        /// </summary>
         public CatalogueWindow()
         {
             InitializeComponent();
@@ -388,6 +391,9 @@ namespace GameCatalogue
         /// </summary>
         private void ApplyLastSort()
         {
+            if (catalogueTable.DataSource == null)
+                return;
+
             if (catalogueTable.Tag is not Tuple<string, bool> lastSort)
                 return;
 
@@ -395,6 +401,8 @@ namespace GameCatalogue
             bool ascending = lastSort.Item2;
 
             var data = (List<Products>)catalogueTable.DataSource;
+            if (data == null || data.Count == 0)
+                return;
 
             if (ascending)
                 catalogueTable.DataSource = data.OrderBy(x => x.GetType().GetProperty(columnName)?.GetValue(x)).ToList();
@@ -402,7 +410,12 @@ namespace GameCatalogue
                 catalogueTable.DataSource = data.OrderByDescending(x => x.GetType().GetProperty(columnName)?.GetValue(x)).ToList();
         }
 
-        private void btnUserSettings_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Allows the user to open the settings window to select or create a profile
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnSettings_Click(object sender, EventArgs e)
         {
             var settingsWindow = new frmUserSettings(db, currentProfileId);
 
@@ -412,16 +425,9 @@ namespace GameCatalogue
 
                 var settings = db.LoadUserSettings(currentProfileId);
 
-                catalogueTable.Tag = Tuple.Create(settings.sortColumn, settings.ascending);
-                ApplyLastSort();
                 lblCurrentProfile.Text = $"Current Profile: {settings.name}";
+                catalogueTable.Tag = Tuple.Create(settings.sortColumn, settings.ascending);
             }
-        }
-
-        private void btnSettings_Click(object sender, EventArgs e)
-        {
-            var SettingsWindow = new frmUserSettings(db, currentProfileId);
-            SettingsWindow.ShowDialog();
         }
 
         /// <summary>
@@ -433,6 +439,5 @@ namespace GameCatalogue
         {
             this.Close();
         }
-
     }
 }

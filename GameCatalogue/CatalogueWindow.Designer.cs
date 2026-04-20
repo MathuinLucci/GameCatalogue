@@ -43,8 +43,8 @@
             btnNext = new Button();
             lblPage = new Label();
             panel1 = new Panel();
-            btnSettings = new Button();
             lblCurrentProfile = new Label();
+            btnSettings = new Button();
             ((System.ComponentModel.ISupportInitialize)catalogueTable).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -125,6 +125,7 @@
             btnSearch.TabIndex = 2;
             btnSearch.Text = "Search";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
             // txtSearch
             // 
@@ -200,15 +201,6 @@
             panel1.Size = new Size(1129, 44);
             panel1.TabIndex = 9;
             // 
-            // btnSettings
-            // 
-            btnSettings.Location = new Point(951, 6);
-            btnSettings.Name = "btnSettings";
-            btnSettings.Size = new Size(75, 28);
-            btnSettings.TabIndex = 0;
-            btnSettings.Text = "Settings";
-            btnSettings.Click += btnSettings_Click;
-            // 
             // lblCurrentProfile
             // 
             lblCurrentProfile.AutoSize = true;
@@ -217,6 +209,15 @@
             lblCurrentProfile.Size = new Size(55, 20);
             lblCurrentProfile.TabIndex = 9;
             lblCurrentProfile.Text = "Profile:";
+            // 
+            // btnSettings
+            // 
+            btnSettings.Location = new Point(951, 6);
+            btnSettings.Name = "btnSettings";
+            btnSettings.Size = new Size(75, 28);
+            btnSettings.TabIndex = 0;
+            btnSettings.Text = "Settings";
+            btnSettings.Click += btnSettings_Click;
             // 
             // CatalogueWindow
             // 
