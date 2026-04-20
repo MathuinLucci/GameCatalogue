@@ -62,3 +62,11 @@ C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.
 C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.genruntimeconfig.cache
 C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\ref\GameCatalogue.dll
 C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.sourcelink.json
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.csproj.AssemblyReference.cache
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.frmUserSettings.resources
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\System.Data.SQLite.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\lucar\Desktop\GameCatalogue\GameCatalogue\GameCatalogue\obj\Debug\net8.0-windows\GameCatalogue.frmNewProfile.resources

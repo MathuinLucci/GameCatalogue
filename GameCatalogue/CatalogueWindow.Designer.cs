@@ -43,6 +43,8 @@
             btnNext = new Button();
             lblPage = new Label();
             panel1 = new Panel();
+            btnSettings = new Button();
+            lblCurrentProfile = new Label();
             ((System.ComponentModel.ISupportInitialize)catalogueTable).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -57,7 +59,7 @@
             catalogueTable.Location = new Point(0, 44);
             catalogueTable.Name = "catalogueTable";
             catalogueTable.RowHeadersWidth = 51;
-            catalogueTable.Size = new Size(927, 403);
+            catalogueTable.Size = new Size(1131, 477);
             catalogueTable.TabIndex = 0;
             // 
             // hdrBoxart
@@ -123,7 +125,6 @@
             btnSearch.TabIndex = 2;
             btnSearch.Text = "Search";
             btnSearch.UseVisualStyleBackColor = true;
-            btnSearch.Click += btnSearch_Click;
             // 
             // txtSearch
             // 
@@ -136,7 +137,7 @@
             // btnClose
             // 
             btnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnClose.Location = new Point(828, 6);
+            btnClose.Location = new Point(1032, 6);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(94, 29);
             btnClose.TabIndex = 4;
@@ -184,6 +185,8 @@
             // panel1
             // 
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel1.Controls.Add(lblCurrentProfile);
+            panel1.Controls.Add(btnSettings);
             panel1.Controls.Add(lblPage);
             panel1.Controls.Add(btnSearch);
             panel1.Controls.Add(btnNext);
@@ -194,14 +197,32 @@
             panel1.Controls.Add(btnClose);
             panel1.Location = new Point(2, 1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(925, 44);
+            panel1.Size = new Size(1129, 44);
             panel1.TabIndex = 9;
+            // 
+            // btnSettings
+            // 
+            btnSettings.Location = new Point(951, 6);
+            btnSettings.Name = "btnSettings";
+            btnSettings.Size = new Size(75, 28);
+            btnSettings.TabIndex = 0;
+            btnSettings.Text = "Settings";
+            btnSettings.Click += btnSettings_Click;
+            // 
+            // lblCurrentProfile
+            // 
+            lblCurrentProfile.AutoSize = true;
+            lblCurrentProfile.Location = new Point(801, 10);
+            lblCurrentProfile.Name = "lblCurrentProfile";
+            lblCurrentProfile.Size = new Size(55, 20);
+            lblCurrentProfile.TabIndex = 9;
+            lblCurrentProfile.Text = "Profile:";
             // 
             // CatalogueWindow
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(927, 447);
+            ClientSize = new Size(1131, 521);
             Controls.Add(catalogueTable);
             Controls.Add(panel1);
             Name = "CatalogueWindow";
@@ -229,5 +250,7 @@
         private Button btnNext;
         private Label lblPage;
         private Panel panel1;
+        private Button btnSettings;
+        private Label lblCurrentProfile;
     }
 }

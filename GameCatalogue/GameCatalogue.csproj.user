@@ -4,6 +4,12 @@
     <Compile Update="CatalogueWindow.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="NewProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="CatalogueWindow.resx">

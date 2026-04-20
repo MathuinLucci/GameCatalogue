@@ -1,19 +1,31 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Configuration;
+using System.Data.SQLite;
 using System.Drawing;
 using System.IO;
-using System.Net;
+using System.Linq;
+using System.Net.Http;
 using System.Text.Json;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+
+//To make an app with the RAWG API, you can request your own API Key by signing up at https://rawg.io/apidocs.
 
 namespace GameCatalogue
 {
     public partial class CatalogueWindow : Form
     {
         private Dictionary<string, int> platforms = new();
+        private DatabaseManager db;
+        private int currentProfileId = -1;
+
+
         public CatalogueWindow()
         {
             InitializeComponent();
+            db = new DatabaseManager();
+
             AcceptButton = this.btnSearch;
             CancelButton = this.btnClose;
             hdrBoxart.Width = 120;
@@ -85,11 +97,6 @@ namespace GameCatalogue
             };
 
             var platformList = new List<KeyValuePair<string, int>>();
-
-            cboPlatform.DataSource = platformList;
-            cboPlatform.DisplayMember = "Key";
-            cboPlatform.ValueMember = "Value";
-
 
             // Bind dictionary to the ComboBox
             // Dictionary<TKey,TValue> translates into KeyValuePair<TKey,TValue>.
@@ -252,14 +259,14 @@ namespace GameCatalogue
 
             var products = await Task.WhenAll(response.results.Select(async g => new Products
             {
-                GameId = g.id,
-                ArtImage = await ImageBuilder(g.background_image),
-                Title = g.name,
-                Platform = g.platforms == null
+                GameId = g.Id,
+                ArtImage = await ImageBuilder(g.BackgroundImage),
+                Title = g.Name,
+                Platform = g.Platforms == null
                     ? "Platform Not Listed"
-                    : string.Join(", ", g.platforms.Select(x => x.platform.name)),
-                Rating = g.rating.ToString(),
-                ReleaseDate = g.released
+                    : string.Join(", ", g.Platforms.Select(x => x.Platform.Name)),
+                Rating = g.Rating.ToString(),
+                ReleaseDate = g.Released,
             }));
 
             return products.ToList();
@@ -395,6 +402,28 @@ namespace GameCatalogue
                 catalogueTable.DataSource = data.OrderByDescending(x => x.GetType().GetProperty(columnName)?.GetValue(x)).ToList();
         }
 
+        private void btnUserSettings_Click(object sender, EventArgs e)
+        {
+            var settingsWindow = new frmUserSettings(db, currentProfileId);
+
+            if (settingsWindow.ShowDialog() == DialogResult.OK)
+            {
+                currentProfileId = settingsWindow.SelectedProfileId;
+
+                var settings = db.LoadUserSettings(currentProfileId);
+
+                catalogueTable.Tag = Tuple.Create(settings.sortColumn, settings.ascending);
+                ApplyLastSort();
+                lblCurrentProfile.Text = $"Current Profile: {settings.name}";
+            }
+        }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            var SettingsWindow = new frmUserSettings(db, currentProfileId);
+            SettingsWindow.ShowDialog();
+        }
+
         /// <summary>
         /// Coses the program when the CLose button is clicked or the escape key is pressed
         /// </summary>
@@ -404,5 +433,6 @@ namespace GameCatalogue
         {
             this.Close();
         }
+
     }
 }
